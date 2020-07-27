@@ -1,0 +1,217 @@
+html{scroll-behavior: smooth;}
+html body{
+/*background-image: url("main.png");*/
+background-color: rgba(0,0,0,1.0);
+font-family: 'Iceland', cursive;
+font-size: 27px;color: black; 
+font-style: normal; font-variant: normal; 
+font-weight: 800; line-height: 20px;
+text-shadow: 1px 1px 3px gray, 0 0 15px blue;
+position: relative;
+scroll-behavior: smooth;}
+h1 { font-family: 'Iceland', cursive; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 1700; line-height: 30px; }
+h2 { font-family: 'Iceland', cursive; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 1700; line-height: 30px; }
+h3 { font-family: 'Iceland', cursive; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 1100; line-height: 15.4px; } 
+h4 { font-family: 'Times New Roman'; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 1100; line-height: 15.4px; } 
+h5 { font-family: 'Times New Roman'; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 1100; line-height: 15.4px; } 
+
+p { font-family: 'Iceland', cursive; font-size: 27px; font-style: normal; font-variant: normal; font-weight: 800; line-height: 20px; }
+blockquote { font-family: 'Iceland', cursive; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: 'Iceland', cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+div.transbox {
+	margin: 100px;
+	background-color: rgba(150,150,150,0.7);
+	border-left: 3px #82EEFD;
+	border-bottom: 3px #82EEFD;
+	text-align: left;
+
+}
+div.trans{
+	background-color:rgba(150,150,150,0.7);
+	margin-bottom: 10px;
+	border-left: 3px #82EEFD;
+	border-bottom: 3px #82EEFD;
+	margin-left: 10px;
+}
+div.trans1{
+	background-color:rgba(150,150,150,0.0);
+	margin-bottom: 10px;
+	border-left: 3px #82EEFD;
+	border-bottom: 3px #82EEFD;
+	align-content: center;
+}
+div.trans2{
+	background-color:rgba(150,150,150,0.0);
+	border-left: 3px #82EEFD;
+	border-bottom: 3px #82EEFD;
+	align-content: center;
+}
+.navbar{
+	opacity: 0.9;
+	background-color: #ffffff;
+	font-size: 30px;
+}
+.container-fluid{
+	margin: 20px 20px 0px 20px;
+}
+
+.shadow{
+	box-shadow: 5px 5px 3px #ffc107;
+}
+.blur{
+	background image: url("main.gif");
+	width:300px;
+	height:300px;
+	box-shadow=0 0 0 0 ;
+}
+
+.nav-name {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 3px;
+	opacity: 0.7;
+	color: #fff;
+}
+
+.nav-links {
+	display: flex;
+	width: 35%;
+	justify-content: space-around;
+	list-style: none;
+	background-color: #2c3531;
+}
+
+.nav-links a{
+	color: #fff;
+	opacity: 0.7;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-links a:hover{
+	opacity: 1;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	transition: all 0.5s;
+}
+
+.burger {
+	display: none;
+	cursor: pointer;
+}
+
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	opacity: 0.7;
+	margin: 5px;
+	transition: all 0.3s ease;
+}
+    ul.nav-pills {
+      top: 20px;
+      position: fixed;
+    }
+    div.col-8 div {
+      height: 500px;
+    }
+    .image-blurred-edge {
+    box-shadow: 0 20px 20px 20px blue;
+}
+.image-blurred-edge1{
+    background-image: url("main1.gif");
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px blue;
+}
+.fixed-bg {
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+  }
+
+  /*parrallax*/
+  /* Header Parallax Element Style*/ 
+.paral {
+	height: 600px;
+	width: 1500px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	align-self: center;
+	}
+    .paral p {
+		font-size: 24px;
+		color:#f5f5f5;
+		text-align: center;
+		line-height: 60px;
+		}
+		
+		/* Heading for Parallax Section */ 
+	.paral h1 {
+		color: rgba(255, 255, 255, 0.8);
+		font-size: 80px;
+		text-align: center;
+		padding-top: 60px;
+		line-height: 100px;
+		}
+		/* Image for Parallax Section */ 
+
+	
+	/* Add more images for more sections */
+	/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+/* Image for Parallax Section */ 
+/* Image for Parallax Section */ 
+.paralsec {
+	background-image: url("mainbag1.gif");}
+	
+.paralsec1 {
+	background-image: url("solo1.jpeg");}
+	
+.paralsec2 {
+	background-image: url("chip.jpg");
+	}
+	.paralsec3 {
+		background-image: url("opengl.jpg");
+		}
+		.paralsec4 {
+			background-image: url("bob1.jpg"); 
+			}
+			.paralsec4 {
+				background-image: url("bob1.jpg"); 
+				}
+				.paralsec5 {
+					background-image: url("photo.jpeg"); 
+					}
+					.paralsec6 {
+						background-image: url("cont.jpeg"); 
+						}
+.rapal {
+	height: 400px;
+	width: 1500px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	align-self: center;
+	}
+    .rapal p {
+		font-size: 24px;
+		color:#f5f5f5;
+		text-align: center;
+		line-height: 60px;
+		}
+		
+		/* Heading for Parallax Section */ 
+	.rapal h1 {
+		color: rgba(255, 255, 255, 0.8);
+		font-size: 80px;
+		text-align: center;
+		padding-top: 60px;
+		line-height: 100px;
+}
