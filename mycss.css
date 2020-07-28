@@ -20,28 +20,28 @@ blockquote { font-family: 'Iceland', cursive; font-size: 21px; font-style: norma
 pre { font-family: 'Iceland', cursive; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
 div.transbox {
 	margin: 100px;
-	background-color: rgba(150,150,150,0.7);
+	background-color: rgba(255,255,255,0.7);
 	border-left: 3px #82EEFD;
 	border-bottom: 3px #82EEFD;
 	text-align: left;
 
 }
 div.trans{
-	background-color:rgba(150,150,150,0.7);
+	background-color:rgba(255,255,255,0.7);
 	margin-bottom: 10px;
 	border-left: 3px #82EEFD;
 	border-bottom: 3px #82EEFD;
 	margin-left: 10px;
 }
 div.trans1{
-	background-color:rgba(150,150,150,0.0);
+	background-color:rgba(255,255,255,0.0);
 	margin-bottom: 10px;
 	border-left: 3px #82EEFD;
 	border-bottom: 3px #82EEFD;
 	align-content: center;
 }
 div.trans2{
-	background-color:rgba(0.0,0.0,0.0,0.0);
+	background-color:rgba(255,255,255,0.0);
 	border-left: 3px #82EEFD;
 	border-bottom: 3px #82EEFD;
 	align-content: center;
